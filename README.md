@@ -45,7 +45,7 @@ This Discord bot allows users to register their player ID (Steam or Gamepass) an
 
 4. Run the bot:
     ```bash
-    python bot.py
+    python frontline-pass.py
     ```
 
 ## Usage
