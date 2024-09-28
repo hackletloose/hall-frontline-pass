@@ -24,20 +24,18 @@ This Discord bot allows users to register their player ID (Steam or Gamepass) an
 ## Installation
 
 1. Clone the repository:
-```
-bash
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
-```
+    ```bash
+    git clone https://github.com/yourusername/your-repository.git
+    cd your-repository
+    ```
 
-3. Install the required Python dependencies:
-```bash
-pip install -r requirements.txt
-```
+2. Install the required Python dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. Create a `.env` file in the root directory with the following content:
-    ```
-bash
+    ```bash
     DISCORD_TOKEN=your-discord-bot-token
     API_URL=https://your-api-endpoint.com
     API_KEY=your-api-key
@@ -46,8 +44,7 @@ bash
     ```
 
 4. Run the bot:
-    ```
-bash
+    ```bash
     python bot.py
     ```
 
