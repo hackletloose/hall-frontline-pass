@@ -1,0 +1,12 @@
+[Unit]
+Description=frontline-pass - klick on Discord-button to get temporaraly VIP on the gameserver
+After=network.target
+
+[Service]
+User=<your-username>
+WorkingDirectory=/path/to/your/hall-frontline-pass
+ExecStart=/usr/bin/python3 /path/to/your/hall-frontline-pass/frontline-pass.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
