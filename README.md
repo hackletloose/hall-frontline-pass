@@ -2,6 +2,13 @@
 
 This Discord bot allows users to register their player ID (Steam or Gamepass) and request temporary VIP status for a certain amount of time on connected servers. The bot integrates with an external API to manage VIP status for players and stores player information in a local SQLite database.
 
+ToDo:
+Execute the following commands after downloading:
+1. Copy the `.env.dist` file to `.env` and enter your values.
+2. Run the command `pip install python-dotenv`.
+3. Copy `frontline-pass.service.dist` to `/etc/systemd/system/frontline-pass.service`
+4. Activate and start the service with `sudo systemctl enable frontline-pass.service` and `sudo systemctl start frontline-pass.service`.
+
 ## Features
 
 - **Player Registration**: Users can register their player ID (Steam-ID or Gamepass-ID) through a modal window.
