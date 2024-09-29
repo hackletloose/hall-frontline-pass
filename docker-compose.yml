@@ -1,0 +1,14 @@
+version: '3'
+services:
+  discord_bot:
+    build: .
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - API_URL=${API_URL}
+      - API_KEY=${API_KEY}
+      - VIP_DURATION_HOURS=${VIP_DURATION_HOURS}
+      - CHANNEL_ID=${CHANNEL_ID}
+    env_file:
+      - .env
+    volumes:
+      - ./players.db:/app/players.db
